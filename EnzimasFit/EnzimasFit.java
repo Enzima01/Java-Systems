@@ -40,7 +40,7 @@ public class EnzimasFit {
 				float imc = peso / (altura * altura);
 
 				if (idade <= 0 || peso <= 0 || altura <= 0) {
-					System.out.println("InformaÁıes Inv·lidas!");
+					System.out.println("Informa√ß√µes Inv√°lidas!");
 				}
 				else {
 
@@ -48,16 +48,16 @@ public class EnzimasFit {
 					System.out.printf("Indice de Massa Corporal (IMC): %.2f%n", imc);
 
 					if (imc < 18.5) {
-						System.out.println("ClassificaÁ„o: Abaixo do peso");
+						System.out.println("Classifica√ß√£o: Abaixo do peso");
 					}
 					else if (imc >= 18.5 && imc <= 24.9) {
-						System.out.println("ClassificaÁ„o: Peso Normal");
+						System.out.println("Classifica√ß√£o: Peso Normal");
 					}
 					else if (imc >= 25 && imc <= 29.9) {
-						System.out.println("ClassificaÁ„o: Sobrepeso");
+						System.out.println("Classifica√ß√£o: Sobrepeso");
 					}
 					else {
-						System.out.println("ClassificaÁ„o: Obesidade");
+						System.out.println("Classifica√ß√£o: Obesidade");
 					}
 
 					if (idade <= 25 && imc < 25) {
@@ -89,7 +89,7 @@ public class EnzimasFit {
 					}
 					if (cadastrar != 'S' && cadastrar != 's') {
 						System.out.println("----------------------------------------------");
-						System.out.println("          Usu·rio n„o cadastrado.");
+						System.out.println("          Usu√°rio n√£o cadastrado.");
 						System.out.println("----------------------------------------------");
 						System.out.println("Pressione Enter para continuar...");
 						sc.nextLine();
@@ -113,11 +113,11 @@ public class EnzimasFit {
 				break;
 
 			case 2:
-				System.out.printf("%n---------------- EstatÌsticas --------------------%n");
+				System.out.printf("%n---------------- Estat√≠sticas --------------------%n");
 				System.out.println("Alunos Cadastrados: " + cadastrado);
 				if (cadastrado > 0) {
 					float mediaIMC = somaIMC / cadastrado;
-					System.out.printf("MÈdia dos IMCs: %.2f%n", mediaIMC);
+					System.out.printf("M√©dia dos IMCs: %.2f%n", mediaIMC);
 					System.out.println("----------------------------------------------");
 					System.out.println("Pressione Enter para continuar...");
 					sc.nextLine();
@@ -125,7 +125,7 @@ public class EnzimasFit {
 
 				}
 				else {
-					System.out.println("Nenhum usu·rio cadastrado!");
+					System.out.println("Nenhum usu√°rio cadastrado!");
 					System.out.println("----------------------------------------------");
 					System.out.println("Pressione Enter para continuar...");
 					sc.nextLine();
@@ -136,10 +136,11 @@ public class EnzimasFit {
 
 			case 3:
 				System.out.println("Saindo do Sistema...");
+				sc.close(); 
 				return;
 
 			default:
-				System.out.println("OpÁ„o Inv·lida!");
+				System.out.println("Op√ß√£o Inv√°lida!");
 
 			}
 
