@@ -1,11 +1,10 @@
 
 public class Animal {
-	// atributos
+	
 	String nome;
 	String tipo;
 	int idade;
 
-	// métodos
 	void exibirDados() {
 		System.out.println("========== DADOS ==========");
 		System.out.println("Nome: " + nome);
