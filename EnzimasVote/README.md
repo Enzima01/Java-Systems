@@ -3,7 +3,7 @@
 
 ## PT-BR
 
-Um sistema que simula uma votação onde o usuário pode escolher seu filme favorito entre três opções: **Matrix**, **O Senhor dos Anéis** e **Interestelar**. 
+Um sistema que simula uma votação onde o usuário pode escolher seu filme favorito entre três opções: Matrix, O Senhor dos Anéis e Interestelar. 
 Após o término da votação, o sistema exibe os resultados, incluindo a porcentagem de votos de cada filme e declara o vencedor. 
 Caso haja empate, o sistema informa isso também.
 
